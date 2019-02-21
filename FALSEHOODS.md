@@ -41,6 +41,13 @@ surprising how many false assumptions programmers continue to make about them.
     **Tip:** Don’t store properties for a phone number such as validity or
     type. Check this information again from the library when you need it.
 
+1.  **Phone numbers never change**
+
+    A phone might change because of the numbering scheme changes when 
+    the range beginning to run out of free numbers. This happened in 
+    the Netherlands 10-10-1995, where all numbers were standardized to a 
+    10-digit format.
+
 1.  **Each country calling code corresponds to exactly one country**
 
     The USA, Canada, and several Caribbean islands share the country calling
